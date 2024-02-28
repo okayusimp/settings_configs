@@ -8,7 +8,7 @@ touch ~/.zshrc
 echo "export ZSH="$HOME/.oh-my-zsh"" >> ~/.zshrc
 echo "ZSH_THEME="powerlevel10k/powerlevel10k"" >> ~/.zshrc
 echo "plugins=(git zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
-echo "source $ZSH/oh-my-zsh.sh" >> ~/.zshrc
+echo "source ~/.oh-my-zsh/oh-my-zsh.sh" >> ~/.zshrc
 # Edit .zshrc
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
